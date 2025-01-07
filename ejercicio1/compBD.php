@@ -4,7 +4,6 @@ if(isset($_POST['enviar'])){
     $nombre = $_POST['username'];
     $password = $_POST['password'];
     $recuerdame = $_POST['remember'];
-    echo $recuerdame;
     $sesion = false;
     $consulta = "SELECT * FROM usuarios WHERE usuario = '$nombre' AND password = '$password'";
     $sentencia = $conexion->prepare($consulta);
