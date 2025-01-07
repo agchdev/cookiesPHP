@@ -29,7 +29,10 @@
           </svg><span class="hidden">Password</span></label>
         <input id="login__password" type="password" name="password" class="form__input" placeholder="Password" required>
       </div>
-
+      <div class="form__field">
+        <input type="checkbox" name="remember" id="remember">
+        <p>Recuerdame la sesión</p>
+      </div>
       <div class="form__field">
         <input type="submit" name="enviar" value="Sign In">
       </div>
